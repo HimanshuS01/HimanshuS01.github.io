@@ -1353,6 +1353,7 @@
  	letter-spacing: .2rem;
  	color: #FFFFFF;
  	text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+ 	margin-top: 20px;
  }
  .intro-content .intro-position span {
  	display: inline-block;
