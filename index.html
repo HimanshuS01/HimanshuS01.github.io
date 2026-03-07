@@ -1,705 +1,606 @@
-<!DOCTYPE rtml>
-<!--[if IE 8 ]>
-<html class="no-js oldie ie8" lang="en"> <![endif]-->
-<!--[if IE 9 ]>
-<html class="no-js oldie ie9" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Singhal | Senior Software Engineer</title>
+    <meta name="description"
+        content="Himanshu Singhal — Senior Software Engineer with 8+ years of experience designing backend and platform systems at scale, specializing in cloud security, IAM-based architectures, and FedRAMP-compliant microservice platforms.">
+    <meta name="keywords"
+        content="Himanshu Singhal, Senior Software Engineer, Go, Golang, Python, Backend Engineer, Platform Engineering, Cloud Security, IAM, FedRAMP, Distributed Systems, AWS, Kubernetes, OpenSearch, Microservices, Terraform">
+    <meta name="author" content="Himanshu Singhal">
 
-    <!--- basic page needs
-        ================================================== -->
-    <meta charset="utf-8">
-    <title>Himanshu Singhal</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://himanshus01.github.io/">
+    <meta property="og:title" content="Himanshu Singhal | Senior Software Engineer">
+    <meta property="og:description"
+        content="Senior Software Engineer specialising in distributed systems, cloud infrastructure, and backends that scale.">
 
-    <!-- mobile specific metas
-        ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://himanshus01.github.io/">
 
-    <!-- CSS
-        ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap"
+        rel="stylesheet">
 
-    <!-- script
-        ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script src="js/pace.min.js"></script>
+    <!-- Single stylesheet -->
+    <link rel="stylesheet" href="assets/css/portfolio.css">
 
+    <!-- Structured data (JSON-LD) -->
+    <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Himanshu Singhal",
+    "jobTitle": "Senior Software Engineer",
+    "url": "https://himanshus01.github.io/",
+    "email": "himanshu.singhal116@gmail.com",
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Maharaja Agrasen Institute of Technology" },
+    "sameAs": ["https://github.com/HimanshuS01","https://linkedin.com/in/himanshusinghal/"]
+  }
+  </script>
 </head>
 
-<body id="top">
+<body>
 
-<!-- header
-    ================================================== -->
-<header>
-    <div class="row">
+    <a class="skip-link" href="#main-content">Skip to main content</a>
 
-        <div class="top-bar">
-            <a class="menu-toggle" href="#"><span>Menu</span></a>
-            <nav id="main-nav-wrap">
-                <ul class="main-navigation">
-                    <li class="current"><a class="smoothscroll" href="#intro" title="">Home</a></li>
-                    <li><a class="smoothscroll" href="#about" title="">About</a></li>
-                    <li><a class="smoothscroll" href="#resume" title="">Resume</a></li>
-                    <li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
-                </ul>
-            </nav>
-        </div> <!-- /top-bar -->
+    <!-- NAVIGATION -->
+    <header class="site-header" role="banner">
+        <nav class="nav-container" aria-label="Main navigation">
+            <a href="#hero" class="nav-logo" aria-label="Home">HS<span class="accent">.</span></a>
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu"
+                aria-label="Toggle navigation menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu" role="list">
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#skills">Skills</a></li>
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+                <li><a class="nav-link" href="#achievements">Achievements</a></li>
+                <li><a class="nav-link" href="#education">Education</a></li>
+                <li><a class="nav-link nav-link--cta" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    </div> <!-- /row -->
-</header> <!-- /header -->
+    <main id="main-content">
 
-<!-- intro section
-    ================================================== -->
-<section id="intro">
-
-    <div class="intro-overlay"></div>
-
-    <div class="intro-content">
-        <div class="row">
-
-            <div class="col-twelve">
-
-                <h5>Hello</h5>
-                <h1>Hi I'm Himanshu Singhal</h1>
-
-                <p class="intro-position">
-                    <span>Senior Software Developer </span>
-                </p>
-
-                <a class="button stroke smoothscroll" href="#about" title="">More About Me</a>
-
-            </div>
-
-        </div>
-    </div> <!-- /intro-content -->
-
-    <ul class="intro-social">
-        <li><a href="https://twitter.com/HimanshuS2408"><i class="fa fa-twitter"></i></a></li>
-
-        <li><a href="https://github.com/HimanshuS01"><i class="fa fa-github"></i></a></li>
-
-        <li><a href="https://www.linkedin.com/in/HimanshuSinghal/"><i class="fa fa-linkedin"></i></a></li>
-    </ul> <!-- /intro-social -->
-
-</section> <!-- /intro -->
-
-
-<!-- about section
-    ================================================== -->
-<section id="about">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>About</h5>
-            <h1>Let me introduce myself</h1>
-
-            <div class="intro-info">
-
-                <img src="images/profilepic.jpg" alt="Profile Picture">
-                <p class="lead">Results-driven product development enthusiast with a software engineering mindset and
-                    over 6 years of industry experience specializing in programming and designing scalable distributed
-                    systems. Proven track record collaborating with diverse organizations in the consumer product and
-                    services domain. Adept at thriving in Agile Development Environments. I Also contributed to the Open
-                    Source Organization selected in Google Summer of Code.
-                </p>
-            </div>
-
-        </div>
-    </div> <!-- /section-intro -->
-
-    <div class="row about-content">
-
-        <div class="col-six tab-full">
-
-            <h3>Profile</h3>
-
-            <ul class="info-list">
-                <li>
-                    <strong>Fullname:</strong>
-                    <span>Himanshu Singhal</span>
-                </li>
-                <li>
-                    <strong>Birth Date:</strong>
-                    <span>August 24, 1995</span>
-                </li>
-                <li>
-                    <strong>Website:</strong>
-                    <span><a href="https://himanshus01.github.io/">https://himanshus01.github.io/</a></span>
-                </li>
-                <li>
-                    <strong>Email:</strong>
-                    <span>himanshu.singhal116@gmail.com</span>
-                </li>
-
-            </ul> <!-- /info-list -->
-
-        </div>
-
-        <div class="col-six tab-full">
-
-            <h3>Skills</h3>
-            <ul class="skill-bars">
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>Golang</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>Python, Django, Flask & FastAPI</strong>
-                </li>
-                <li>
-                    <div class="progress percent85"></div>
-                    <strong>Javascript, React.js & Typescript</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"></div>
-                    <strong>Java &amp; Android App Development</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>Git & Github</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>SQL</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>PostgreSQL</strong>
-                </li>
-                <li>
-                    <div class="progress percent90"></div>
-                    <strong>GraphQL and REST</strong>
-                </li>
-                <li>
-                    <div class="progress percent80"></div>
-                    <strong>Redis</strong>
-                </li>
-                <li>
-                    <div class="progress percent70"></div>
-                    <strong>Docker, AWS, Terraform, Kubernetes</strong>
-                </li>
-
-            </ul> <!-- /skill-bars -->
-
-        </div>
-
-    </div>
-
-    <div class="row button-section">
-        <div class="col-twelve">
-            <a href="resume/Himanshu_Singhal_Resume.pdf" title="Download CV" class="button button-primary">Download
-                RESUME</a>
-        </div>
-    </div>
-
-</section> <!-- /process-->
-
-
-<!-- resume Section
-    ================================================== -->
-<section id="resume" class="grey-section">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Resume</h5>
-            <h1>More of my credentials</h1>
-
-        </div>
-    </div> <!-- /section-intro-->
-
-    <div class="row resume-timeline">
-
-        <div class="col-twelve resume-header">
-
-            <h2>Work Experience</h2>
-
-        </div> <!-- /resume-header -->
-
-        <div class="col-twelve">
-
-            <div class="timeline-wrap">
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
+        <!-- HERO -->
+        <section id="hero" class="hero" aria-label="Introduction">
+            <div class="container hero-inner">
+                <div class="hero-content">
+                    <p class="hero-greeting">Hi, I&#39;m</p>
+                    <h1 class="hero-name">Himanshu Singhal</h1>
+                    <h2 class="hero-title">Senior Software Engineer</h2>
+                    <p class="hero-tagline">
+                        <strong>8+ years</strong> building backend and platform systems at scale &#8212;
+                        specialising in <strong>cloud security</strong>, <strong>IAM architectures</strong>,
+                        and <strong>FedRAMP-compliant microservice platforms</strong>.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="resume/Himanshu_Singhal_Resume.pdf" class="btn btn--primary" target="_blank"
+                            rel="noopener noreferrer">Download Resume</a>
+                        <a href="#contact" class="btn btn--outline">Get In Touch</a>
                     </div>
-
-                    <div class="timeline-header">
-                        <h3>Senior Software Developer</h3>
-                        <p>July 2021 - Present</p>
+                    <div class="hero-social">
+                        <a href="https://github.com/HimanshuS01" target="_blank" rel="noopener noreferrer"
+                            aria-label="GitHub profile">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-1.93C5.73 21.1 5.08 18.9 5.08 18.9c-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.55-.29-5.23-1.27-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.18-1.49 3.14-1.18 3.14-1.18.63 1.58.24 2.75.12 3.04.73.8 1.18 1.83 1.18 3.08 0 4.42-2.69 5.39-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.2.66.79.55C20.21 21.37 23.5 17.07 23.5 12 23.5 5.73 18.27.5 12 .5z" />
+                            </svg>
+                        </a>
+                        <a href="https://linkedin.com/in/himanshusinghal/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn profile">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.44c.98 0 1.79-.77 1.79-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com/HimanshuS2408" target="_blank" rel="noopener noreferrer"
+                            aria-label="Twitter / X profile">
+                            <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.734l7.736-8.824L1.254 2.25H8.08l4.253 5.622ZM17.08 20.01h1.833L7.084 4.126H5.117Z" />
+                            </svg>
+                        </a>
                     </div>
+                </div>
+                <!-- Code window decoration -->
+                <div class="hero-visual" aria-hidden="true">
+                    <div class="code-window">
+                        <div class="code-window__titlebar">
+                            <span class="dot dot--red"></span>
+                            <span class="dot dot--yellow"></span>
+                            <span class="dot dot--green"></span>
+                            <span class="code-window__filename">engineer.go</span>
+                        </div>
+                        <pre class="code-window__body"><code><span class="code-kw">type</span> <span class="code-type">Engineer</span> <span class="code-kw">struct</span> {
+  Name       <span class="code-type">string</span>
+  Role       <span class="code-type">string</span>
+  Experience <span class="code-type">string</span>
+  Focus      <span class="code-type">string</span>
+  Stack      []<span class="code-type">string</span>
+}
 
-                    <div class="timeline-content">
-                        <h4>Syniti</h4>
-                        <p>
-                            Working here as a Senior Software Developer. Responsible for designing, developing and
-                            maintaining Syniti’s cloud products both on on-premises enterprise and cloud-native software
-                            by using a myriad of technologies.
-                        </p>
-                        <ul>
-                            <li>Created data profiling framework that helps businesses to determine data accuracy,
-                                risks, and overall trends to eliminate costly errors. This saved the business
-                                <b>$$</b> dollars.
-                            </li>
-                            <li>Created microservices to extract data from GraphQL database to enrich AWS QuickSight
-                                cloud-powered business analytics dashboard where customers get quick business insights
-                                from their data helping them to take better decisions.
-                            </li>
-                            <li>Designed and implemented an automated testing framework for UI modules, crafting and
-                                executing hundreds of test cases. Successfully reduced manual testing dependency,
-                                resulting in significant time savings and improved overall testing efficiency.
-                            </li>
+<span class="code-kw">func</span> <span class="code-fn">main</span>() {
+  me := <span class="code-type">Engineer</span>{
+    Name:       <span class="code-str">"Himanshu Singhal"</span>,
+    Role:       <span class="code-str">"Senior SWE"</span>,
+    Experience: <span class="code-str">"8+ years"</span>,
+    Focus:      <span class="code-str">"Platform &amp; Cloud Security"</span>,
+    Stack: []<span class="code-type">string</span>{
+      <span class="code-str">"Go"</span>, <span class="code-str">"Python"</span>, <span class="code-str">"Java"</span>,
+      <span class="code-str">"AWS"</span>, <span class="code-str">"Kubernetes"</span>, <span class="code-str">"Terraform"</span>,
+      <span class="code-str">"PostgreSQL"</span>, <span class="code-str">"Redis"</span>,
+      <span class="code-str">"React"</span>, <span class="code-str">"Typescript"</span>, <span class="code-str">"Cypress"</span>,
+    },
+  }
+  <span class="code-fn">build</span>(me.<span class="code-prop">Stack</span>)
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section" aria-labelledby="about-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">01. About Me</span>
+                    <h2 id="about-heading" class="section-title">Who I Am</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I am a backend and platform engineer focused on building scalable, secure, and highly
+                            observable distributed systems that power data-intensive enterprise platforms.</p>
+                        <p>At <strong>Syniti</strong>, I work across core platform initiatives spanning identity
+                            architecture, audit logging, search infrastructure, and cloud security, with an emphasis on
+                            designing reusable platform capabilities that enable multiple product teams to ship faster
+                            and operate safely at scale.</p>
+                        <p><strong>Key areas of impact:</strong></p>
+                        <ul class="about-bullets">
+                            <li>Designing and evolving IAM-first platform architecture supporting multi-cloud
+                                deployments and compliance requirements</li>
+                            <li>Building centralized audit logging infrastructure enabling governance, observability,
+                                and cross-service traceability</li>
+                            <li>Leading IRSA adoption and secure workload identity patterns across Kubernetes
+                                environments</li>
+                            <li>Architecting a reusable search abstraction layer simplifying OpenSearch integration and
+                                reducing team-level operational overhead</li>
+                            <li>Driving platform reliability through monitoring, logging, and operational excellence
+                                practices</li>
+                            <li>Mentoring engineers and contributing to design discussions influencing cross-team
+                                technical direction</li>
+                        </ul>
+                        <p>I enjoy working at the intersection of distributed systems, platform engineering, and cloud
+                            security &#8212; building foundational infrastructure that scales across teams and products.
+                            I&#39;ve also made <a href="https://himanshus01.github.io/opensource.html" target="_blank"
+                                rel="noopener noreferrer">open-source contributions</a> to Google Summer of Code
+                            organisations.</p>
+                        <div class="about-meta">
+                            <div class="meta-item">
+                                <span class="meta-label">Location</span>
+                                <span class="meta-value">India (Remote)</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Currently At</span>
+                                <span class="meta-value">Syniti</span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Email</span>
+                                <span class="meta-value"><a
+                                        href="mailto:himanshu.singhal116@gmail.com">himanshu.singhal116@gmail.com</a></span>
+                            </div>
+                            <div class="meta-item">
+                                <span class="meta-label">Resume</span>
+                                <span class="meta-value"><a href="resume/Himanshu_Singhal_Resume.pdf" target="_blank"
+                                        rel="noopener noreferrer">View PDF &#8599;</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="profile-image-wrapper">
+                            <img src="images/profilepic.jpg" alt="Himanshu Singhal &#8212; Senior Software Engineer"
+                                width="280" height="280" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section section--alt" aria-labelledby="skills-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">02. Technical Skills</span>
+                    <h2 id="skills-heading" class="section-title">What I Work With</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Languages</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag skill-tag--primary">Go</li>
+                            <li class="skill-tag skill-tag--primary">Python</li>
+                            <li class="skill-tag">Java</li>
                         </ul>
                     </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Software Development Engineer</h3>
-                        <p>Feb 2020 - Jun 2021</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Quartic.ai</h4>
-                        <p>Worked here as a Full Stack Developer and my time at Quartic.ai was marked by a diverse set
-                            of contributions, ranging from technical innovations such as microservice development and
-                            backend optimization to security initiatives, collaborative projects, and mentorship
-                            activities. These experiences collectively shaped my role as a Full Stack Developer, and I
-                            am proud to have played a part in advancing Quartic's platform capabilities and fostering a
-                            collaborative and growth-oriented team environment.
-
-                        </p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Software Development Engineer</h3>
-                        <p>June 2018 - Jan 2020</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Cuemath (CueLearn Pvt. Ltd.)</h4>
-                        <p>Worked here as a Full Stack Developer.During my professional journey at Cuemath, I played a
-                            dynamic role in optimizing the Cuestudent android app for a seamless user experience. My
-                            development efforts were marked by significant achievements, including the implementation of
-                            Annotation Processors that drastically reduced screen load time and streamlined layout
-                            creation. With a user base exceeding <b>50k</b> daily active users, I prioritized
-                            compatibility across various screen sizes and versions, ensuring a consistent and reliable
-                            app experience. Collaborating with the SEO team, I optimized the Cuemath website's page
-                            loading times and integrated Google Business Listings APIs, showcasing my versatility beyond
-                            app development. My time at Cuemath was characterized by continuous growth, technical
-                            excellence, and a focus on enhancing both user interfaces and backend systems.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Assisting Mentor</h3>
-                        <p>December 2017 - March 2018</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Coding Blocks</h4>
-                        <p>Worked as a co-instructor,taught Data Structures &amp; Algorithms to the university Students
-                            and helping them in clearing their doubts.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Internship</h3>
-                        <p>June 2016 - August 2016</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>India Meteorological Department</h4>
-                        <p>I have completed my summer internship at India Meteorological Department,Lodi Road,New Delhi
-                            - 110003 in Web Development
-                            during June 2017 - Aug 2017 and got the chance to work with senior scientist.
-                            I have built the Network Management System(Website) that manages different IP addresses used
-                            in IMD department and setup the database using MYSql server.</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>EDUNET Learning Services</h4>
-                        <p>I have completed my summer internship at Edunet Learning Services,Noida in Android
-                            during June 2016 - Aug 2016 and got the chance to work with the senior professional
-                            developers.I have designed the UI of an application "AroundU" Pro ,Set Up the App's database
-                            and Integrate the
-                            Signup and Login page with social networking sites Facebook and Google+.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Android App Developer</h3>
-                        <p>Feb 2016 - Present</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Android Studio and SDK Tools</h4>
-                        <p>I have been working in Android Development over the last two year and I am enjoying it
-                            thoroughly.I am an avid open source lover
-                            and have a hands-on experience in many android projects and the source code of most of my
-                            application can be easily found on my <a href="https://github.com/HimanshuS01"><span
-                                    style="color: #1E90FF">Github</span></a> profile.I am an active open source
-                            contributor in SYSTERS and FOSSASIA organisation under GSOC.<br>
-                            My <strong>Open Source Contributions </strong>can be found <a href="opensource.html"><span
-                                    style="color: #1E90FF">here</span></a>.
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Front-end Developer</h3>
-                        <p>August 2016 - Present</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Web Designing</h4>
-                        <p>Developed responsive templates with the help of HTML,CSS and Javascript.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-graduation-cap"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>Graphic Designer</h3>
-                        <p>July 2010 - Present</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Desktop Designing</h4>
-                        <ul>
-                            <li>Made posters on the social issues undertaken by LFT</li>
-                            <li>Collaborated with a team of 4</li>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Backend &amp; APIs</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag skill-tag--primary">RESTful Services</li>
+                            <li class="skill-tag skill-tag--primary">GraphQL</li>
+                            <li class="skill-tag skill-tag--primary">Kafka</li>
                         </ul>
                     </div>
-
-                </div> <!-- /timeline-block -->
-
-            </div> <!-- /timeline-wrap -->
-
-        </div> <!-- /col-twelve -->
-
-    </div> <!-- /resume-timeline -->
-
-    <div class="row resume-timeline">
-
-        <div class="col-twelve resume-header">
-
-            <h2>Education</h2>
-
-        </div> <!-- /resume-header -->
-
-        <div class="col-twelve">
-
-            <div class="timeline-wrap">
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Cloud &amp; Infrastructure</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag skill-tag--primary">AWS (IAM, RDS, S3, SQS, SNS)</li>
+                            <li class="skill-tag skill-tag--primary">AWS IRSA &amp; OpenSearch</li>
+                            <li class="skill-tag skill-tag--primary">Kubernetes</li>
+                            <li class="skill-tag skill-tag--primary">Terraform</li>
+                        </ul>
                     </div>
-
-                    <div class="timeline-header">
-                        <h3>B.TECH IN INFORMATION TECHNOLOGY</h3>
-                        <p>August 2014 - June 2018</p>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Datastores</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag skill-tag--primary">PostgreSQL</li>
+                            <li class="skill-tag skill-tag--primary">Redis</li>
+                        </ul>
                     </div>
-
-                    <div class="timeline-content">
-                        <h4>Maharaja Agrasen Institute of Technology(GGSIPU)</h4>
-                        <p>I have completed my graduation in B.Tech(IT) from Maharaja Agrasen Institute Of Technology
-                            having an overall 78%.</p>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">Frontend &amp; Testing</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag">React</li>
+                            <li class="skill-tag">Cypress</li>
+                        </ul>
                     </div>
-
-                </div> <!-- /timeline-block -->
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
+                    <div class="skill-category">
+                        <h3 class="skill-category__title">DevOps &amp; Tooling</h3>
+                        <ul class="skill-tags" role="list">
+                            <li class="skill-tag">Docker</li>
+                            <li class="skill-tag">CI/CD Pipelines</li>
+                            <li class="skill-tag">Git</li>
+                        </ul>
                     </div>
-
-                    <div class="timeline-header">
-                        <h3>AISSCE - CLASS XII (CBSE)</h3>
-                        <p> Passed Year : 2013</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Lilawati Vidya Mandir Sr. Sec. School</h4>
-                        <p>From Lilawati Vidya Mandir Sr. Sec. School in 2013 and secured 86% .</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-                <div class="timeline-block">
-
-                    <div class="timeline-ico">
-                        <i class="fa fa-briefcase"></i>
-                    </div>
-
-                    <div class="timeline-header">
-                        <h3>AISCE - CLASS X (CBSE)</h3>
-                        <p>Passed Year : 2011</p>
-                    </div>
-
-                    <div class="timeline-content">
-                        <h4>Lilawati Vidya Mandir Sr. Sec. School</h4>
-                        <p>From Lilawati Vidya Mandir Sr. Sec. School in 2011 and secured 8.4 CGPA.</p>
-                    </div>
-
-                </div> <!-- /timeline-block -->
-
-            </div> <!-- /timeline-wrap -->
-
-        </div> <!-- /col-twelve -->
-
-    </div> <!-- /resume-timeline -->
-
-</section> <!-- /features -->
-
-<!-- .................................................... -->
-
-<div style="text-align: center; margin-bottom: 1%">
-    <h1>More of my College Projects Work</h1>
-    <div class="cardcont">
-
-        <a href="https://github.com/HimanshuS01/MusicStreaming">
-            <div class="card">
-                <div class="socialchess">
-
-                    <div class="projectname">Music Streaming</div>
-
-                    <div class="projectdesc">A music streaming App that fetches the song, playlist &amp; albums from the
-                        Sound Cloud API and provides an effective cache machanism for playing the song.
-                    </div>
-                    <div class="readmore">PROJECT LINK
-                        <img src="./assets/img/arrow.png" height="10" width="23"></div>
                 </div>
             </div>
-        </a>
+        </section>
 
-        <a href="https://github.com/systers/malaria-app-android/issues?q=author%3AHimanshuS01+is%3Aopen">
-            <div class="card">
-                <div class="pmo">
+        <!-- EXPERIENCE -->
+        <section id="experience" class="section" aria-labelledby="experience-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">03. Work Experience</span>
+                    <h2 id="experience-heading" class="section-title">Where I&#39;ve Worked</h2>
+                </div>
+                <div class="experience-list">
 
-                    <div class="projectname">Malaria-Android</div>
+                    <!-- Syniti -->
+                    <article class="experience-card experience-card--featured"
+                        aria-label="Syniti &#8212; Senior Software Engineer">
+                        <div class="experience-card__header">
+                            <div>
+                                <h3 class="experience-card__role">Senior Software Engineer</h3>
+                                <p class="experience-card__company">Syniti <span
+                                        class="experience-card__location">&#183; Remote, India</span></p>
+                            </div>
+                            <time class="experience-card__date" datetime="2021-07">July 2021 &#8211; Present</time>
+                        </div>
+                        <ul class="experience-card__points">
+                            <li>Architected and delivered a <strong>multi-cloud search abstraction layer</strong>
+                                supporting AWS OpenSearch, Azure Cognitive Search, and Elasticsearch, enabling zero-code
+                                cloud provider switching across multiple enterprise microservices handling <strong>10M+
+                                    daily search queries</strong>.</li>
+                            <li>Led a platform-wide migration of <strong>100+ microservices</strong> from static
+                                PostgreSQL credentials to IAM-based authentication to meet <strong>FedRAMP
+                                    requirements</strong>, eliminating all stored database secrets.</li>
+                            <li>Designed and implemented a <strong>shared, language-agnostic database authentication
+                                    library</strong> (AWS and Azure) using short-lived 15-minute tokens and enabled RDS
+                                IAM authentication via Terraform, standardizing secure DB access across all
+                                Kubernetes-hosted services.</li>
+                            <li>Defined and drove org-wide adoption of a <strong>standardized audit logging
+                                    architecture</strong> to close FedRAMP High (NIST SP 800-53 AU-3) compliance gaps
+                                across Go, Java, .NET, and Python services.</li>
+                            <li>Implemented <strong>IAM Roles for Service Accounts (IRSA)</strong> across all Kubernetes
+                                workloads, removing hardcoded AWS credentials and enabling least-privilege, short-lived
+                                access to AWS services.</li>
+                            <li>Redesigned the <strong>Data Quality Rule Engine</strong> to stream multi-million-row
+                                datasets using chunked database reads and controlled concurrency, improving performance
+                                by <strong>60%+</strong> while eliminating memory constraints.</li>
+                            <li>Built a scalable <strong>error-report export pipeline</strong> using streamed XLSX
+                                generation and S3 multipart uploads, enabling large report downloads directly from the
+                                UI.</li>
+                            <li>Designed and delivered a <strong>Data Volume Under Management (DVUM) framework</strong>
+                                spanning PostgreSQL, Oracle, SAP HANA, and SQL Server, enabling accurate customer usage
+                                tracking for billing and revenue operations.</li>
+                            <li>Mentored <strong>5+ engineers</strong> through design reviews, pair programming, and
+                                hundreds of production code reviews, improving system design quality and engineering
+                                standards.</li>
+                        </ul>
+                        <div class="experience-card__tags">
+                            <span class="exp-tag">Go</span><span class="exp-tag">Python</span><span
+                                class="exp-tag">Kubernetes</span><span class="exp-tag">AWS (IRSA, RDS,
+                                OpenSearch)</span><span class="exp-tag">Terraform</span><span
+                                class="exp-tag">PostgreSQL</span><span class="exp-tag">Kafka</span><span
+                                class="exp-tag">FedRAMP</span><span class="exp-tag">Cypress</span><span
+                                class="exp-tag">React</span>
+                        </div>
+                    </article>
 
-                    <div class="projectdesc">The application will feature a reminder system; an ability to indicate that
-                        medication was taken on time or missed;a trip indicator to help remind volunteers to pack
-                        certain supplies to prevent malaria if they leave their home village.
-                    </div>
-                    <div class="readmore">PROJECT LINK
-                        <img src="./assets/img/arrow.png" height="10" width="23"></div>
+                    <!-- Quartic.ai -->
+                    <article class="experience-card" aria-label="Quartic.ai &#8212; Software Engineer">
+                        <div class="experience-card__header">
+                            <div>
+                                <h3 class="experience-card__role">Software Engineer</h3>
+                                <p class="experience-card__company">Quartic.ai <span
+                                        class="experience-card__location">&#183; Bangalore, India</span></p>
+                            </div>
+                            <time class="experience-card__date" datetime="2020-02">Feb 2020 &#8211; Jun 2021</time>
+                        </div>
+                        <ul class="experience-card__points">
+                            <li>Designed and built a <strong>backend proxy microservice</strong> to standardize
+                                service-to-service communication across the platform, improving scalability and
+                                simplifying cross-service integrations.</li>
+                            <li>Optimized backend APIs powering <strong>manufacturing dashboards</strong>, reducing
+                                response times from minutes to a few seconds and significantly improving operational
+                                decision-making.</li>
+                            <li>Led the effort to secure on-prem customer deployments by implementing <strong>repository
+                                    obfuscation and code protection mechanisms</strong>, ensuring intellectual property
+                                safety and deployment compliance.</li>
+                            <li>Integrated <strong>Microsoft Power BI REST APIs</strong> to enable near real-time data
+                                streaming and analytics, expanding the platform&#39;s reporting and visualization
+                                capabilities.</li>
+                            <li>Partnered with QA to build an <strong>automated testing framework</strong> and
+                                integrated execution with Slack notifications, reducing manual testing effort and
+                                accelerating feedback loops.</li>
+                        </ul>
+                        <div class="experience-card__tags">
+                            <span class="exp-tag">Python</span><span class="exp-tag">Go</span><span
+                                class="exp-tag">Microservices</span><span class="exp-tag">REST APIs</span><span
+                                class="exp-tag">Power BI APIs</span><span class="exp-tag">Test Automation</span>
+                        </div>
+                    </article>
+
+                    <!-- Cuemath -->
+                    <article class="experience-card" aria-label="Cuemath &#8212; Software Engineer">
+                        <div class="experience-card__header">
+                            <div>
+                                <h3 class="experience-card__role">Software Engineer</h3>
+                                <p class="experience-card__company">Cuemath <span
+                                        class="experience-card__location">&#183; Bangalore, India</span></p>
+                            </div>
+                            <time class="experience-card__date" datetime="2018-06">Jun 2018 &#8211; Jan 2020</time>
+                        </div>
+                        <ul class="experience-card__points">
+                            <li>Wrote <strong>Annotation Processors for the Cuestudent Android app</strong> (Java),
+                                reducing screen load time from <strong>120 ms to 40 ms</strong> and halving new layout
+                                development time through boilerplate elimination.</li>
+                            <li>Developed features and maintained the Cuestudent app serving <strong>50k+ daily active
+                                    users</strong> across diverse screen sizes and OS versions; also built architecture
+                                for the Cuemath NCERT App.</li>
+                            <li>Integrated <strong>Google Business Listings APIs</strong> with the SEO team,
+                                significantly reducing manual content-management effort for the curriculum team.</li>
+                            <li>Built a <strong>Math Olympiad enrollment flow using React.js</strong> adopted by 30k+
+                                students, and revamped the data-capture signup form to improve conversion.</li>
+                        </ul>
+                        <div class="experience-card__tags">
+                            <span class="exp-tag">Java</span><span class="exp-tag">Android</span><span
+                                class="exp-tag">React.js</span><span class="exp-tag">Python</span><span
+                                class="exp-tag">SEO Optimisation</span><span class="exp-tag">Google APIs</span><span
+                                class="exp-tag">Microservices</span>
+                        </div>
+                    </article>
+
                 </div>
             </div>
-        </a>
+        </section>
 
-        <a href="https://github.com/systers/powerup-android/issues?q=author%3AHimanshuS01+is%3Aclosed">
-            <div class="card">
-                <div class="jobsplane">
-
-                    <div class="projectname">Powerup-Android</div>
-                    <div class="projectdesc">PowerUp is an educational choose-your-own-adventure game that utilizes a
-                        users uploaded curriculum to empower pre-adolescents to take charge of their reproductive
-                        health. This is the Android version of the game.
+        <!-- ACHIEVEMENTS -->
+        <section id="achievements" class="section section--alt" aria-labelledby="achievements-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">04. Key Achievements</span>
+                    <h2 id="achievements-heading" class="section-title">Impact at a Glance</h2>
+                </div>
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#128737;</div>
+                        <p class="achievement-card__stat">FedRAMP IAM Migration</p>
+                        <p class="achievement-card__desc">Led platform-wide migration of 100+ microservices from static
+                            DB credentials to IAM-based auth, eliminating all stored secrets to meet FedRAMP compliance
+                            requirements.</p>
                     </div>
-                    <div class="readmore">PROJECT LINK
-                        <img src="./assets/img/arrow.png" height="10" width="23"></div>
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#128269;</div>
+                        <p class="achievement-card__stat">10M+ Daily Search Queries</p>
+                        <p class="achievement-card__desc">Architected a multi-cloud search abstraction layer across AWS
+                            OpenSearch, Azure Cognitive Search, and Elasticsearch &#8212; enabling zero-code cloud
+                            switching at scale.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#9889;</div>
+                        <p class="achievement-card__stat">60%+ Perf Gain</p>
+                        <p class="achievement-card__desc">Redesigned the Data Quality Rule Engine with streaming,
+                            chunked reads, and controlled concurrency &#8212; processing millions of rows while
+                            eliminating memory constraints.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#128201;</div>
+                        <p class="achievement-card__stat">120ms &#8594; 40ms</p>
+                        <p class="achievement-card__desc">Cut Android app screen load time by 66% via Java Annotation
+                            Processors, also halving development time for new layouts through boilerplate elimination.
+                        </p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#128101;</div>
+                        <p class="achievement-card__stat">500+ Code Reviews</p>
+                        <p class="achievement-card__desc">Mentored 5+ engineers through design reviews, pair
+                            programming, and hundreds of production code reviews, raising system design quality and
+                            engineering standards.</p>
+                    </div>
+                    <div class="achievement-card">
+                        <div class="achievement-card__icon" aria-hidden="true">&#127942;</div>
+                        <p class="achievement-card__stat">GSoC &amp; Top 19 Nationally</p>
+                        <p class="achievement-card__desc">Open-source contributor under <a
+                                href="https://himanshus01.github.io/opensource.html" target="_blank"
+                                rel="noopener noreferrer">Google Summer of Code</a>; ranked 19th nationwide in
+                            HackerEarth&#39;s Code-N-Counter Challenge.</p>
+                    </div>
                 </div>
             </div>
-        </a>
+        </section>
 
-        <a href="https://github.com/systers/FirstAide-Android/issues?q=author%3AHimanshuS01+is%3Aopen">
-            <div class="card">
-                <div class="bic">
-
-                    <div class="projectname">FirstAide-Android</div>
-
-                    <div class="projectdesc">This project is to support the initiative by creating a mobile app that
-                        PCVs can readily have accessible to report or gain information on Peace Corps Safety and
-                        Security procedures.
+        <!-- EDUCATION -->
+        <section id="education" class="section" aria-labelledby="education-heading">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">05. Education</span>
+                    <h2 id="education-heading" class="section-title">Academic Background</h2>
+                </div>
+                <div class="education-card">
+                    <div class="education-card__icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+                            viewBox="0 0 24 24">
+                            <path
+                                d="M12 3 1 9l4 2.18V16l7 4 7-4v-4.82L23 9 12 3zm4.89 5L12 10.72 7.11 8 12 5.28 16.89 8zM18 14.99l-6 3.43-6-3.43v-3.06L12 14l6-2.07v3.06z" />
+                        </svg>
                     </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
+                    <div class="education-card__content">
+                        <h3 class="education-card__degree">B.Tech in Information Technology</h3>
+                        <p class="education-card__institution">Maharaja Agrasen Institute of Technology (GGSIPU), Delhi
+                        </p>
+                        <div class="education-card__meta">
+                            <span>Graduated: June 2018</span>
+                            <span class="meta-sep">&#183;</span>
+                            <span>Score: 81%</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </a>
+        </section>
 
-        <a href="https://github.com/HimanshuS01/TnM17">
-            <div class="card">
-                <div class="hackindia">
-
-                    <div class="projectname">TnM17</div>
-
-                    <div class="projectdesc">This application shows all the event details, schedule and mark the events
-                        as favorite for TnM17 an annual fest of college. It also features Navigation Map based on Google
-                        Map API.
-                    </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
+        <!-- CONTACT -->
+        <section id="contact" class="section section--alt" aria-labelledby="contact-heading">
+            <div class="container container--narrow">
+                <div class="section-header">
+                    <span class="section-label">06. Contact</span>
+                    <h2 id="contact-heading" class="section-title">Get In Touch</h2>
+                </div>
+                <p class="contact-intro">
+                    I&#39;m open to senior engineering roles, consulting opportunities, and interesting technical
+                    discussions. Whether you have a project in mind or just want to connect &#8212; my inbox is open.
+                </p>
+                <a href="mailto:himanshu.singhal116@gmail.com" class="btn btn--primary btn--large">Say Hello</a>
+                <div class="contact-social">
+                    <a href="https://github.com/HimanshuS01" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-1.93C5.73 21.1 5.08 18.9 5.08 18.9c-.52-1.33-1.28-1.68-1.28-1.68-1.04-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.02 1.74 2.68 1.24 3.33.95.1-.74.4-1.24.72-1.53-2.55-.29-5.23-1.27-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.97 0 1.95.13 2.87.39 2.18-1.49 3.14-1.18 3.14-1.18.63 1.58.24 2.75.12 3.04.73.8 1.18 1.83 1.18 3.08 0 4.42-2.69 5.39-5.25 5.67.41.35.78 1.05.78 2.12v3.14c0 .3.2.66.79.55C20.21 21.37 23.5 17.07 23.5 12 23.5 5.73 18.27.5 12 .5z" />
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/in/himanshusinghal/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.14 2.07 2.07 0 0 1 0 4.14zm1.78 13.02H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.44c.98 0 1.79-.77 1.79-1.73V1.73C24 .77 23.2 0 22.22 0z" />
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com/HimanshuS2408" target="_blank" rel="noopener noreferrer"
+                        aria-label="Twitter / X">
+                        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            fill="currentColor" viewBox="0 0 24 24">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.734l7.736-8.824L1.254 2.25H8.08l4.253 5.622ZM17.08 20.01h1.833L7.084 4.126H5.117Z" />
+                        </svg>
+                    </a>
                 </div>
             </div>
-        </a>
+        </section>
 
-        <a href="https://github.com/HimanshuS01/EduAssistant">
-            <div class="card">
-                <div class="mova1">
+    </main>
 
-                    <div class="projectname">EduAssistant</div>
-
-                    <div class="projectdesc">
-                        This android app features a smart Chatbot that will answer an user query by using text, videos,
-                        quiz Games etc. along with the feature of finding the most popular topics of interest of the
-                        attendees by analyzing their Github profile.
-                    </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="https://github.com/HimanshuS01/movieplate">
-            <div class="card">
-                <div class="zomato">
-
-                    <div class="projectname">MovieDB</div>
-                    <div class="projectdesc">
-                        This android app let’s you browse popular, top rated and now playing movies and TV shows. Also,
-                        it allows the logged in user to add TV shows and movies into their watch list. This app is built
-                        using
-                        MovieDB and OMDB APIs.
-                    </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="https://github.com/HimanshuS01/Othello">
-            <div class="card">
-                <div class="socialchess">
-
-                    <div class="projectname">Othello</div>
-
-                    <div class="projectdesc">
-                        Reversi is a strategy board game for two players, played on an 8×8 uncheckered board.During a
-                        play, any disks of the opponent's color that are in a straight line and bounded by the disk of
-                        the current player's color are turned over to the current player's color.
-                    </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
-                </div>
-            </div>
-        </a>
-
-        <a href="https://github.com/HimanshuS01/TicTacToe">
-            <div class="card">
-                <div class="ioteractions">
-
-                    <div class="projectname">TicTacToe</div>
-
-                    <div class="projectdesc">The two player game built in JAVA eclipse platform using the concepts of
-                        OOPS having coordinates type system for placing the corresponding players symbol
-                    </div>
-                    <div class="readmore">PROJECT LINK <img src="./assets/img/arrow.png" height="10" width="23"></div>
-                </div>
-            </div>
-        </a>
-    </div>
-</div>
-<!-- .................................................... -->
-
-<section id="contact">
-
-    <div class="row section-intro">
-        <div class="col-twelve">
-
-            <h5>Contact</h5>
-
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>Designed &amp; Built by <a href="#hero">Himanshu Singhal</a></p>
+            <p class="footer-copy">&copy; <span id="current-year">2026</span></p>
         </div>
-    </div> <!-- /section-intro -->
+    </footer>
 
-    <div class="row contact-info">
+    <!-- Back-to-top -->
+    <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 24 24">
+            <path d="m12 4-8 8h5v8h6v-8h5z" />
+        </svg>
+    </a>
 
+    <script>
+        (() => {
+            'use strict';
 
-        <div class="col-four tab-full collapse">
+            // Mobile nav
+            const toggle = document.querySelector('.nav-toggle');
+            const menu = document.querySelector('.nav-menu');
+            toggle.addEventListener('click', () => {
+                const expanded = toggle.getAttribute('aria-expanded') === 'true';
+                toggle.setAttribute('aria-expanded', String(!expanded));
+                menu.classList.toggle('nav-menu--open');
+            });
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    menu.classList.remove('nav-menu--open');
+                    toggle.setAttribute('aria-expanded', 'false');
+                });
+            });
 
-            <div class="icon">
-                <i class="icon-mail"></i>
-            </div>
+            // Active nav on scroll
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        navLinks.forEach(l => l.classList.remove('nav-link--active'));
+                        const active = document.querySelector(`.nav-link[href="#${entry.target.id}"]`);
+                        if (active) active.classList.add('nav-link--active');
+                    }
+                });
+            }, { threshold: 0.35 });
+            sections.forEach(s => observer.observe(s));
 
-            <h5>Email Me At</h5>
+            // Header shadow + back-to-top
+            const header = document.querySelector('.site-header');
+            const backToTop = document.getElementById('back-to-top');
+            window.addEventListener('scroll', () => {
+                header.classList.toggle('site-header--scrolled', window.scrollY > 20);
+                backToTop.classList.toggle('back-to-top--visible', window.scrollY > 400);
+            }, { passive: true });
 
-            <p>himanshu.singhal116@gmail.com
-            </p>
+            // Dynamic year
+            document.getElementById('current-year').textContent = new Date().getFullYear();
 
-        </div>
-
-    </div> <!-- /contact-info -->
-
-</section> <!-- /contact -->
-
-<footer>
-    <div class="row">
-
-        <div id="go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-long-arrow-up"></i></a>
-        </div>
-
-    </div> <!-- /row -->
-</footer>
-
-<div id="preloader">
-    <div id="loader"></div>
-</div>
-
-<!-- Java Script
-    ================================================== -->
-<script src="js/jquery-2.1.3.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+            // Smooth scroll polyfill (Safari < 15.4)
+            document.querySelectorAll('a[href^="#"]').forEach(a => {
+                a.addEventListener('click', e => {
+                    const t = document.querySelector(a.getAttribute('href'));
+                    if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth' }); }
+                });
+            });
+        })();
+    </script>
 
 </body>
 
